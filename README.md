@@ -29,4 +29,17 @@ Relationships are enforced using foreign keys to ensure referential integrity. B
 ---
 
 ## File Structure
+  app.py # Command-line interface and application logic
+  schema.sql # Database schema and table definitions
+  sample_data.sql # Fictional demo data for testing
+  README.md
 
+---
+
+## How to Run
+
+1. Ensure Python 3 is installed.
+2. From the project directory, run:
+
+```bash
+python app.py
